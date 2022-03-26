@@ -53,3 +53,12 @@ My goal is to learn a programming language. I am interested in learning JS. My s
 - [Training course](https://olgamardvilko.github.io/up-skill-lab/#1)
 - [Textbook JavaScript](https://learn.javascript.ru/)
 - [RsSchool](https://app.rs.school/)
+
+## Languages:
+
+- [Puzzle-English](https://puzzle-english.com/)
+- **Language practice:** verbal and writte
+- Russian - Native
+- Polish - Basic
+- English - level A1
+- Deutsch - Read
