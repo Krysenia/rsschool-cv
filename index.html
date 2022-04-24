@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Krysenia Vitali CV</title>
+    <link rel="icon" href="./assets/img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <!--START-->
+  <body>
+    <!--HEADER-->
+    <header>
+      <nav>
+        <ul class="navigation">
+          <li>
+            <a href="#summary" class="nav-item">Summary</a>
+          </li>
+          <li>
+            <a href="#experience" class="nav-item">Experience</a>
+          </li>
+          <li>
+            <a href="#education" class="nav-item">Education</a>
+          </li>
+          <li>
+            <a href="#code" class="nav-item">Code</a>
+          </li>
+          <li>
+            <a href="#languages" class="nav-item">Languages</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="content">
+      <aside>
+        <img src="./assets/img/DSC_0327.JPG" alt="My Photo" class="photo" />
+
+        <section class="contacts">
+          <h3>Contacts</h3>
+          <ul class="list-contacts">
+            <li>
+              <a href="skype:igenius_kv" class="contact-item">Skype</a>
+            </li>
+            <li>
+              <a href="https://github.com/Krysenia" class="contact-item" title="My GitHub">GitHub</a>
+            </li>
+            <li>
+              <a href="tg://resolve?domain=Krysenia" class="contact-item" title="My Telegram">Telegram</a>
+            </li>
+            <li>Phone:<a href="tel:+375336212464" class="contact-item">+375336212464</a></li>
+            <li>Discord: Krysenia#7335</li>
+            <li>
+              <a href="mailto:igenius523@ggmail.com" class="contact-item">igenius523@gmail.com</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="Skills">
+          <h3>Skills</h3>
+          <ul class="list-skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git</li>
+            <li>VS Code</li>
+          </ul>
+        </section>
+      </aside>
+
+      <main>
+        <div class="name">
+          <h1>
+            <span>Vitali</span>
+            <span class="surname">Krysenia</span>
+          </h1>
+        </div>
+        <div class="job">
+          <p>Junior front-end developer</p>
+        </div>
+        <div class="container-cv">
+          <section id="summary">
+            <h3>Summary</h3>
+            <p>
+              My goal is to learn a programming language. I am interested in learning JS. My strong point is the desire
+              to bring the work started to its completion. There is no experience in working as a programmer. There is a
+              great desire to study this profession. I like to see the result of my work immediately. I want to learn
+              Front-End Development in RSSchool.
+            </p>
+          </section>
+
+          <section id="experience">
+            <h3>Experience</h3>
+            <ul>
+              <li>
+                <a href="https://github.com/Krysenia/rsschool-cv">GitHub</a>
+              </li>
+            </ul>
+          </section>
+          <section id="education">
+            <h3>Education</h3>
+            <ul>
+              <li>Belarusian National Technical University 08/2014 - 07/2019</li>
+              <li>
+                <a href="https://olgamardvilko.github.io/up-skill-lab/#2-3-1" title="Traning course">Training course</a>
+                12/2021 - on present
+              </li>
+              <li>
+                <a href="https://learn.javascript.ru/" title="Book JS">Textbook JavaScript</a>
+                01/2022 - on present
+              </li>
+              <li>
+                <a href="https://app.rs.school/" title="RsSchool">RsSchool</a>
+                12/2021 - on present
+              </li>
+            </ul>
+          </section>
+          <section class="code" id="code">
+            <h3>Code</h3>
+            <pre><code>
+      const countChars = (str, char) => {
+      let i = 0;
+      let count = 0;
+      while (i &lt; str.length) {
+          if (str[i].toLowerCase() === char.toLowerCase()) {
+          count = count + 1;
+          } 
+          i = i + 1;
+        }
+        return count;
+      };
+      console.log(countChars('voda valera videokOata', 'o'));
+    </code></pre>
+          </section>
+
+          <section id="languages">
+            <h3>Languages</h3>
+            <ul>
+              <li>Language practical: verbal and write</li>
+              <li>Russian - Native</li>
+              <li>Polish - Basic</li>
+              <li>English - level A1</li>
+              <li>Deutsch - Read</li>
+            </ul>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <footer>
+      <a href="https://github.com/Krysenia">Krysenia - GitHub 2022</a>
+      <a class="footer-logo" href="https://rs.school/js/"></a>
+    </footer>
+  </body>
+</html>
